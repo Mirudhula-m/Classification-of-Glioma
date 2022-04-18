@@ -121,7 +121,7 @@ class GNB:
 	    acc = correct / len(trueVal)
 	    return acc
 
-    def ImplementGNB():
+    def ImplementGNB(self):
     	# Split Dataset
 		splitPercent = 0.8
 		size_trainData = int(len(self.X)*splitPercent)
